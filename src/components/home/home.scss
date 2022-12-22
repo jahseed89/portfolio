@@ -12,10 +12,6 @@
         margin-bottom: 0;
     }
 
-    @media (max-width: 600px) {
-        margin-bottom: -40%;
-    }
-
     .header-title {
         font-family: 'Karla';
         font-style: normal;
@@ -107,7 +103,7 @@
 
                 @media (max-width: 600px) {
                     width: 300px;
-                    height: 180px;
+                    height: 150px;
                 }
             }
         }
