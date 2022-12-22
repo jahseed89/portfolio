@@ -1,0 +1,13 @@
+.media-btn {
+    border-radius: 12px;
+    padding: .3rem .8rem;
+    border: none;
+    background-color: #fff;
+    color: black;
+    font-size: 10px;
+    cursor: pointer;
+
+    @media (max-width: 950px) {
+        // padding: .1rem .3rem;
+    }
+}

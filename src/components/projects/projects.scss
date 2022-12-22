@@ -1,0 +1,241 @@
+
+
+.projects-section {
+    background-color: #0B0E18;
+    height: 100vh;
+    padding: 0 1rem;
+    margin-bottom: 100%;
+
+    @media (max-width: 950px) {
+        margin-bottom: 30%;
+    }
+
+    @media (max-width: 600px) {
+        margin-bottom: 70rem;
+    }
+
+
+    .title-desc {
+        color: #58C5AC;
+
+        @media (max-width: 600px) {
+            text-align: center;
+        }
+    }
+
+    .project-wraper {
+        display: flex;
+        gap: 2rem;
+        margin: 1rem 0;
+
+        @media (max-width: 600px) {
+            flex-direction: column;
+        }
+
+        .mobile-project, .telephone-proj,.transaction-proj {
+            width: 40%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: .5rem;
+            position: relative;
+
+            @media (max-width: 600px) {
+                width: 300px;
+                height: 300px;
+                margin: 0 auto;
+            }
+
+
+            img {
+                width: 60%;
+                height: 80%;
+                object-fit: contain;
+
+                @media (max-width: 600px) {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+
+        .ibeliev-proj, .fruiths-proj, .afw-proj {
+            width: 60%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 8px;
+            position: relative;
+
+            @media (max-width: 600px) {
+                width: 300px;
+                height: 300px;
+                margin: 0 auto;
+            }
+
+
+            img {
+                width: 90%;
+                height: 90%;
+                object-fit: contain;
+
+                @media (max-width: 600px) {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+
+        // ***********Momal styling****************
+        .modal::before {
+            content: "";
+            position: absolute;
+            background-color: #000000CC;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            z-index: z("below");
+          }
+          .modal-body {
+            position: absolute;
+            color: #F5F5F5;
+            text-align: center;
+            width: 65%;
+            left: 17.5%;
+            right: 17.5%;
+            line-height: 22.4px;
+            top: 12rem;
+            z-index: 100;
+            
+            @media (max-width: 1740px) {
+                top: 5rem;
+                width: 80%;
+                left: 10%;
+                right: 10%;
+            }
+
+            @media (max-width: 950px) {
+                width: 100%;
+                top: -.5rem;
+                left: 0;
+                right: 25%;
+                line-height: 22.4px;
+            }
+
+            h3 {
+                font-size: 40px;
+                font-weight: 700;
+
+                @media (max-width: 950px) {
+                    font-size: 20px;
+                    font-weight: 400;
+                }
+            }
+
+            p {
+                font-size: 16px;
+                font-weight: 400;
+
+                @media (max-width: 950px) {
+                    font-size: 12px;
+                    font-weight: 200;
+                    text-align: center !important;
+                    width: 100%;
+                }
+            }
+
+            .proj-btn-holder {
+                display: flex;
+                justify-content: center;
+                gap: .5rem;
+                margin: 2.5rem 0;
+
+                @media (max-width: 950px) {
+                    // margin: .5rem 0;
+                }
+
+                button {
+                    border-radius: 12px;
+                    padding: .3rem .8rem;
+                    border: none;
+                    background-color: #fff;
+                    font-size: 10px;
+                    cursor: pointer;
+
+                    @media (max-width: 950px) {
+                        // padding: .1rem .3rem;
+                    }
+                }
+            }
+            .view-links-btn {
+                display: flex;
+                justify-content: center;
+                gap: 1rem;
+
+                button {
+                    padding: .5rem .7rem;
+                    background-color: #58C5AC;
+                    color: #fff;
+                    border: none;
+                    border-radius: .1rem;
+                    cursor: pointer;
+
+                    @media (max-width: 950px) {
+                        // padding: .1rem .3rem;
+                        font-size: 10px;
+                    }
+                }
+            }
+          }
+
+        //   ********** Modal onHover state **********
+          .modal-display {
+            display: none;
+          }
+
+        .mobile-project {
+            background-color: #EDE9FE;
+            &:hover>.modal-display {
+                display: block;
+            }
+        }
+
+        .ibeliev-proj {
+            background-color: #EBFDFA;
+            &:hover>.modal-display {
+                display: block;
+            }
+        }
+
+        .fruiths-proj {
+            background-color: #E6EFFD;
+            &:hover>.modal-display {
+                display: block;
+            }
+        }
+
+        .telephone-proj {
+            background-color: #FBEDEE;
+            &:hover>.modal-display {
+                display: block;
+            }
+        }
+
+        .transaction-proj {
+            background-color: #EDE9FE;
+            &:hover>.modal-display {
+                display: block;
+            }
+        }
+
+        .afw-proj {
+            background-color: #EBFDFA;
+            &:hover>.modal-display {
+                display: block;
+            }
+        }
+    }
+
+ 
+}
