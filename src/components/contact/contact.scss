@@ -29,9 +29,15 @@
             h3 {
                 width: fit-content;
                 color: #58C5AC;
-                // box-shadow: 10px 10px 5px 12px #58C5AC;
                 font-weight: 700;
                 line-height: 65.46px;
+
+                @media (max-width: 600px) {
+                    font-size: 30px;
+                    width: fit-content;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
             }
 
             span {
@@ -96,7 +102,7 @@
                     }
 
                     @media (max-width: 600px) {
-                        width: 100%;
+                        width: 90%;
                     }
                 
                 }
@@ -111,7 +117,7 @@
             height: 10rem;
 
             @media (max-width: 600px) {
-                width: 25.5rem;
+                width: 20rem;
             }
         }
 

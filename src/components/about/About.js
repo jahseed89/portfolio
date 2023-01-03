@@ -1,5 +1,5 @@
 import React from "react";
-import myPic from "../../assets/images/mypic.jpg";
+import myPic from "../../assets/images/pic.png";
 import flower from "../../assets/images/flower.svg";
 import xd from "../../assets/images/xd.svg";
 import figma from "../../assets/images/figma.svg";

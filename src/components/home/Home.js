@@ -1,6 +1,6 @@
 import React from "react";
 import Avatar from "../../assets/images/avatar.png";
-import {SlArrowDown} from 'react-icons/sl'
+import { SlArrowDown } from "react-icons/sl";
 import "./home.scss";
 
 const Home = () => {
@@ -8,10 +8,16 @@ const Home = () => {
     <div className="home-section">
       <div className="section-wraper">
         <div className="description-text">
-          <h3 className="header-title">
-            <span>Bonjour!</span>
-            <span>👋</span>
-          </h3>
+          <div className="header-title">
+            <div className="words">
+              <span>Hallo! <i>👋</i></span>
+              <span>Bonjour! <i>👋</i></span>
+              <span>Ciao! <i>👋</i></span>
+              <span>Buenos dias! <i>👋</i></span>
+
+            </div>
+            
+          </div>
           <p>Hello there! Kay here.</p>
           <p>
             I'm a multidiscplinary{" "}

@@ -12,23 +12,90 @@
         margin-bottom: 0;
     }
 
+    @media (max-width: 365px) {
+        margin-bottom: 20%;
+    }
+
     .header-title {
         font-family: 'Karla';
         font-style: normal;
         font-weight: 700;
         font-size: 50px;
         line-height: 75px;
+        display: flex;
 
         @media (max-width: 600px) {
             font-size: 30px;
+            margin-bottom: -10rem;
+            width: fit-content;
+            margin-left: auto;
+            margin-right: auto;
         }
-        span:first-child {
-            color: #58C5AC;
-            // box-shadow: 10px 10px 5px 12px #58C5AC;
-        }
-        span:last-child {
+    
+        i {
             margin-left: 1.5rem;
         }
+
+        .words {
+
+            overflow: hidden;
+
+            span {
+                display: block;
+                height: 120%;
+                align-items: center;
+                animation: spin_words 6s infinite;
+            }
+
+            span:nth-child(1) {
+                color: #A5141A;
+            }
+            span:nth-child(2) {
+                color: #030CE0;
+            }
+            span:nth-child(3) {
+                color: #58C5AC;
+            }
+            span:nth-child(4) {
+                color: #F79400;
+            }
+
+            @keyframes spin_words {
+            10% {
+                transform: translateY(-112%);
+            }
+
+            25% {
+                transform: translateY(-100%);
+            }
+            35% {
+                transform: translateY(-212%);
+            }
+
+            50% {
+                transform: translateY(-200%);
+            }
+
+            60% {
+                transform: translateY(-312%);
+            }
+
+            75% {
+                transform: translateY(-300%);
+            }
+
+            85% {
+                transform: translateY(-412%);
+            }
+
+            100% {
+                transform: translateY(-400%);
+            }
+        }
+        }
+        
+  
+
         
     }
 
@@ -52,6 +119,19 @@
             @media (max-width: 600px) {
                 width: 100%;
             }
+
+            // **********Greetings animation ************
+            // #greeting-changer:after {
+            //     content:"";
+            //     animation: spin 5s linear infinite;
+            //   }
+
+            //   @keyframes greeting-changer {
+            //     0% { content:"Hallo!" }
+            //     10% { content:"Bonjour!" }
+            //     20% { content:"Ciao!" }
+            //     30% { content:"Buenos dias!" }
+            //   }
 
             p {
                 font-size: 20px;

@@ -63,7 +63,7 @@ const App = () => {
               <span>
                 <GiEternalLove className="love" />
               </span>
-              by keybams and develooped by Sammy
+              by kaybams and develooped by Sammy
             </h5>
           </div>
         </div>
