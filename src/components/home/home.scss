@@ -35,11 +35,16 @@
 
             overflow: hidden;
 
+            @media (max-width: 600px) {
+                padding-top: 4rem;
+            }
+
             span {
                 display: block;
                 height: 120%;
                 align-items: center;
-                animation: spin_words 6s infinite;
+                animation: spin_words 8s infinite;
+             
             }
 
             span:nth-child(1) {
