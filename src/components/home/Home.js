@@ -1,5 +1,5 @@
 import React from "react";
-import Avatar from "../../assets/images/avatar.png";
+import Avatar from "../../assets/images/grop3.png";
 import { SlArrowDown } from "react-icons/sl";
 import "./home.scss";
 
@@ -10,17 +10,15 @@ const Home = () => {
         <div className="description-text">
           <div className="header-title">
             <div className="words">
-              <span>Hallo! <i>👋</i></span>
-              <span>Bonjour! <i>👋</i></span>
-              <span>Ciao! <i>👋</i></span>
-              <span>Buenos dias! <i>👋</i></span>
-
+              <span>Hallo! 👋</span>
+              <span>Bonjour! 👋</span>
+              <span>Ciao! 👋</span>
+              <span>Buenos dias! 👋</span>
             </div>
-            
           </div>
           <p>Hello there! Kay here.</p>
           <p>
-            I'm a multidiscplinary{" "}
+            I'm a multidiscplinary
             <span className="special-color">designer</span> with a passion for
             creating engaging digital products with enjoyable user experiences✨
           </p>
@@ -33,12 +31,12 @@ const Home = () => {
             up with a functional and applealing digital product.
           </p>
           <p>
-            Currently working as a Digital Product Designer at{" "}
+            Currently working as a Digital Product Designer at
             <span className="special-color">Impero Techne Limited</span>.👨‍💻
           </p>
         </div>
         <div className="section-avatar">
-          <div className="avatar-wraper">
+          <div className="avatar-wrapper">
             <img src={Avatar} alt="#" />
           </div>
         </div>

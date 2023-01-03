@@ -1,7 +1,8 @@
 .contact-section {
     display: flex;
     justify-content: space-between;
-    padding: 0 1rem;
+    padding: 0 2rem;
+    margin-top: 20%;
 
     @media (max-width: 600px) {
         flex-direction: column;
@@ -37,15 +38,6 @@
                     width: fit-content;
                     margin-left: auto;
                     margin-right: auto;
-                }
-            }
-
-            span {
-                margin-left: 2rem;
-                margin-top: 1rem;
-
-                @media (max-width: 600px) {
-                    margin-top: .3rem;
                 }
             }
         }
@@ -121,13 +113,18 @@
             }
         }
 
-        button {
+        .send-msg-btn {
             padding: 1rem 1.5rem;
             background-color: #58C5AC;
             color: #F5F5F5;
             border-radius: 5px;
             border: none;
             margin: 1rem 0;
+            font-size: 12px;
+
+            @media (max-width: 600px) {
+                font-size: 10px;
+            }
         }
     }
 }

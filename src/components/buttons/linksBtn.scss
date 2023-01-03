@@ -1,13 +1,15 @@
-button {
+a {
     padding: .5rem .7rem;
     background-color: #58C5AC;
     color: #fff;
     border: none;
     border-radius: .1rem;
     cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
 
     @media (max-width: 950px) {
-        // padding: .1rem .3rem;
-        font-size: 10px;
+        font-size: 8px;
+        padding: 0.1rem .5rem;
     }
 }

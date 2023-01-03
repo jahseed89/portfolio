@@ -1,7 +1,8 @@
 .about-section {
     height: 100vh;
-    padding: 0 1rem;
-    margin-bottom: 10%;
+    padding: 0 2rem;
+    background-color: #fff;
+    margin-top: 100%;
 
     @media (max-width: 1740px) {
         margin-bottom: 25%;
@@ -13,6 +14,7 @@
 
     .description-container {
         display: flex;
+        height: 70vh;
 
         @media (max-width: 1740px) {
             justify-content: space-between;
@@ -20,6 +22,7 @@
 
         @media (max-width: 600px) {
             flex-direction: column;
+            height: 100vh;
         }
 
         .description {
@@ -28,6 +31,7 @@
 
             @media (max-width: 600px) {
                 width: 100%;
+                // margin-top: -1rem;
             }
 
             .title-holder {
@@ -46,23 +50,11 @@
                   h3 {
                     width: fit-content;
                     color: #58C5AC;
-                    // box-shadow: 10px 10px 5px 12px #58C5AC;
                     font-weight: 700;
                     line-height: 65.46px;
 
                     @media (max-width: 600px) {
-                        font-weight: 500;
-                        margin-bottom: -5rem;
-                    }
-                }
-
-                span {
-                    width: 30px;
-                    margin-left: 1.5rem;
-                    margin-top: 4.5rem;
-
-                    @media (max-width: 600px) {
-                        margin-top: 2.5rem;
+                        margin-bottom: -2rem;
                     }
                 }
             }
@@ -71,20 +63,19 @@
 
             p {
                 line-height: 30px;
-                color: #F5F5F5;
+                color: #000;
                 font-size: 16px;
                 font-weight: 400;
 
                 @media (max-width: 600px) {
                     font-size: 14px;
-                    // margin-top: -2rem;
+                    margin-top: -1rem;
                 }
             }
         }
     
       
         .img-container {
-            // width: 30%;
             width: fit-content;
             height: fit-content;
             display: flex;
@@ -96,7 +87,6 @@
             border-top-right-radius: 10rem;
 
             @media (max-width: 600px) {
-                // width: 100%;
                 margin-top: -1rem;
                 margin-bottom: 2rem;
                 margin-left: auto;
@@ -104,24 +94,33 @@
             }
     
             img {
-                width: 250px;
+                width: 400px;
                 object-fit: contain;
                 border-radius: 8px;
                 margin-left: auto;
                 margin-right: auto;
 
-                // @media (max-width: 600px) {
-                //     width: 200px;
-                    
-                // }
+                @media (max-width: 600px) {
+                    width: 250px;
+                }
             }
         }
     }
+}
 
+    .toolkit-section {
+        background-color: #F5F5F5;
+        height: 50vh;
+        margin-top: -20rem;
+        padding: 0 2rem;
+
+
+    }
     .toolkit-header {
         display: flex;
         align-items: center;
         font-size: 50px;
+        margin-top: -3rem;
 
         @media (max-width: 600px) {
             font-size: 30px;
@@ -149,7 +148,7 @@
 
     .toolkit-tools {
         width: 80%;
-        margin: 4rem auto;
+        margin: 0 auto;
 
         @media (max-width: 600px) {
             width: 100%;
@@ -180,6 +179,3 @@
             margin: 2rem 0;
         }
     }
-
-}
-

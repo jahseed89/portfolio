@@ -2,7 +2,6 @@ import React from "react";
 import linkedIn from '../../assets/images/linkedin.svg'
 import twitter from '../../assets/images/twitter.svg'
 import bb from '../../assets/images/bb.svg'
-import mail from '../../assets/images/mailbox.svg'
 import "./contact.scss";
 
 const ContactMe = () => {
@@ -11,9 +10,6 @@ const ContactMe = () => {
       <div className="info-container">
         <div className="title-header">
           <h3>Let's Connect!</h3>
-          <span>
-            <img src={mail} alt="#" />
-          </span>
         </div>
         <div>
           <p>
@@ -46,7 +42,7 @@ const ContactMe = () => {
             <textarea placeholder="Message"></textarea><br/>
 
           </div>
-          <button>SEND MESSAGE</button>
+          <button className="send-msg-btn">SEND MESSAGE</button>
         </form>
       </div>
       

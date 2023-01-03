@@ -1,9 +1,9 @@
 import React from 'react'
 import './linksBtn.scss'
 
-const LinksBtn = ({linkBtnText, handleLinkBtn}) => {
+const LinksBtn = ({linkBtnText,  hRef}) => {
   return (
-    <button onClick={handleLinkBtn}>{linkBtnText}</button>
+    <a href={hRef} target="blank" >{linkBtnText}</a>
   )
 }
 
