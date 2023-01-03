@@ -18,21 +18,21 @@ const Home = () => {
           </div>
           <p>Hello there! Kay here.</p>
           <p>
-            I'm a multidiscplinary
-            <span className="special-color">designer</span> with a passion for
-            creating engaging digital products with enjoyable user experiences✨
-          </p>
+            I’m a multidisciplinary{" "}
+            <span className="special-color">designer</span> who works at the
+            intersection of customer needs and business objectives to produce
+            digital products that customers will we be willing to pay for and
+            benefit from.✨
+          </p>{" "}
           <p>
-            I specialize in helping individuals and businesses attain
-            profitability with user-centred design solutions.
-          </p>
-          <p>
-            I am that guys that maries business goals with user needs and come
-            up with a functional and applealing digital product.
+            My unique skills offer a blend between design, business and
+            technology as I possess the experience of working cross functionally
+            with Business Analysts, Project Managers, Engineers and
+            Stakeholders.
           </p>
           <p>
             Currently working as a Digital Product Designer at
-            <span className="special-color">Impero Techne Limited</span>.👨‍💻
+            <a href="https://imperotechne.com/" target="blank" className="special-color"> Impero Techne Limited</a>.👨‍💻
           </p>
         </div>
         <div className="section-avatar">

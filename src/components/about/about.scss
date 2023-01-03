@@ -14,6 +14,7 @@
 
     .description-container {
         display: flex;
+        justify-content: space-between;
         height: 70vh;
 
         @media (max-width: 1740px) {
@@ -110,9 +111,9 @@
 
     .toolkit-section {
         background-color: #F5F5F5;
-        height: 50vh;
+        height: fit-content;
         margin-top: -20rem;
-        padding: 0 2rem;
+        padding: 1rem 2rem;
 
 
     }

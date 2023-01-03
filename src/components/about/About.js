@@ -19,15 +19,16 @@ const About = () => {
               <h3>About Me</h3>
             </div>
             <p>
-              Hello again! Thanks for scrolling this far! graduated from the
+              Hello again! Thanks for scrolling this far! I graduated from the
               Federal University of Agriculture with a Bachelors of Engineering
-              in Agricultural Enginnering. I ventured into Product Design
+              in Agricultural Engineering. I ventured into Product Design in
+              2021 and have handled quite a few challenging but exciting design
               projects with (2) of my designs presently in development stage.
             </p>
             <p>
               Other than design, I spend most of my free time learning about
-              blockchain, watching pyshlogical thrillers or comedy series and
-              football - an ardent Arsenal FC supporter here.😎 I've also been
+              design, watching psychological thrillers or comedy series and
+              football - an ardent Arsenal FC supporter here.😎 I‘ve also been
               trying to read more so feel free to reach out to me with any book
               recommendations!
             </p>

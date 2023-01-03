@@ -11,7 +11,7 @@
         margin-bottom: 0;
     }
 
-    @media (max-width: 365px) {
+    @media (max-width: 380px) {
         margin-bottom: 20%;
     }
 
@@ -193,6 +193,7 @@
 
         .special-color {
             color: #58C5AC;
+            text-decoration: none;
 
         }
     }
@@ -203,6 +204,11 @@
         font-size: 28px;
         width: fit-content;
         margin: 1rem auto;
+        margin-top: 10rem;
+
+        @media (max-width: 1740px) {
+            margin-top: 1rem;
+        }
 
         .pointer {
             animation: beat .25s infinite alternate;

@@ -28,8 +28,7 @@ const Projects = () => {
               </p>
               <div className="proj-btn-holder">
                 <MediaBtn mediaBtnText="Figma" />
-                <MediaBtn mediaBtnText="Logistics" />
-                <MediaBtn mediaBtnText="MVP" />
+                <MediaBtn mediaBtnText="Healt-tech" />
                 <MediaBtn mediaBtnText="Mobile App" />
               </div>
               <div className="view-links-btn">
@@ -115,8 +114,10 @@ const Projects = () => {
                 and timely.
               </p>
               <div className="proj-btn-holder">
+                
                 <MediaBtn mediaBtnText="Figma" />
-                <MediaBtn mediaBtnText="Insuretech" />
+                <MediaBtn mediaBtnText="Logistic" />
+                <MediaBtn mediaBtnText="MVP" />
                 <MediaBtn mediaBtnText="Mobile App" />
               </div>
               <div className="view-links-btn">
@@ -149,7 +150,7 @@ const Projects = () => {
                 functionalities
               </p>
               <div className="proj-btn-holder">
-                <MediaBtn mediaBtnText="Adobe XD" />
+                <MediaBtn mediaBtnText="Adobe Xd" />
                 <MediaBtn mediaBtnText="Education" />
                 <MediaBtn mediaBtnText="Mobile App" />
               </div>

@@ -18,15 +18,15 @@ const ContactMe = () => {
             message here!
           </p>
           <div className="social-media">
-            <span>
+            <a href="https://ng.linkedin.com/in/kayodebamidele" target="blank">
                 <img src={linkedIn} alt="#" />
-            </span>
-            <span>
+            </a>
+            <a href="https://mobile.twitter.com/kaybam_s" target="blank">
                 <img src={twitter} alt="#" />
-            </span>
-            <span>
+            </a>
+            <a href="https://www.behance.net/kayodebamidele" target="blank">
                 <img src={bb} alt="#" />
-            </span>
+            </a>
           </div>
         </div>
       </div>

@@ -3,7 +3,7 @@ import './linksBtn.scss'
 
 const LinksBtn = ({linkBtnText,  hRef}) => {
   return (
-    <a href={hRef} target="blank" >{linkBtnText}</a>
+    <a href={hRef} target="blank" className='link-btn' >{linkBtnText}</a>
   )
 }
 
