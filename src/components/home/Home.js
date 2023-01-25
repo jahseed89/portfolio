@@ -2,6 +2,7 @@ import React from "react";
 import Avatar from "../../assets/images/grop3.png";
 import { SlArrowDown } from "react-icons/sl";
 import "./home.scss";
+import Typewriter from "typewriter-effect";
 
 const Home = () => {
   return (
@@ -10,10 +11,19 @@ const Home = () => {
         <div className="description-text">
           <div className="header-title">
             <div className="words">
-              <span>Hallo! 👋</span>
-              <span>Bonjour! 👋</span>
-              <span>Ciao! 👋</span>
-              <span>Buenos dias! 👋</span>
+              <Typewriter
+              options={{
+                autoStart: true,
+                loop: true,
+                delay: 40,
+                strings: [
+                  "Hallo! 👋",
+                  "Bonjour! 👋",
+                  "Ciao! 👋",
+                  "Buenos dias! 👋"
+                ],
+              }}
+              />
             </div>
           </div>
           <p>Hello there! Kay here.</p>

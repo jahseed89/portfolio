@@ -39,9 +39,15 @@ const App = () => {
         </div>
         <div className={menuIcon ? "display-links" : ""}>
           <div className="links-container">
-            <a href="#project"  onClick={showMenuIcon}>Projects</a>
-            <a href="#about"  onClick={showMenuIcon}>About</a>
-            <a href="#contact"  onClick={showMenuIcon}>Contact</a>
+            <a href="#project" onClick={showMenuIcon}>
+              Projects
+            </a>
+            <a href="#about" onClick={showMenuIcon}>
+              About
+            </a>
+            <a href="#contact" onClick={showMenuIcon}>
+              Contact
+            </a>
           </div>
         </div>
         <div>
@@ -58,13 +64,13 @@ const App = () => {
             <ContactMe />
           </div>
           <div className="designed-by">
-            <h5>
+            <p>
               Designed with love
               <span>
                 <GiEternalLove className="love" />
               </span>
               by kaybams and develooped by Sammy
-            </h5>
+            </p>
           </div>
         </div>
       </div>

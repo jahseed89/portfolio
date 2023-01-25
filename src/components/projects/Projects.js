@@ -14,7 +14,7 @@ const Projects = () => {
   return (
     <div className="projects-section">
       <div className="header">
-        <h3 className="title-desc">Projects</h3>
+        <h3 className="title-desc">Featured Projects</h3>
         <span>Hover on any project to learn more</span>
       </div>
       <div className="project-wraper">
