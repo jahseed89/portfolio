@@ -1,8 +1,8 @@
 import React from "react";
 import Avatar from "../../assets/images/grop3.png";
 import { SlArrowDown } from "react-icons/sl";
-import "./home.scss";
 import Typewriter from "typewriter-effect";
+import "./home.scss";
 
 const Home = () => {
   return (
