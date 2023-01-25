@@ -11,15 +11,18 @@ import "./app.scss";
 const App = () => {
   const [menuIcon, setMenuIcon] = useState(true);
   const [cancelMenu, setCancelMenu] = useState(false);
+  const [pages, setPages] = useState(true)
 
   const showCancleMenu = () => {
     setCancelMenu((prev) => !prev);
     setMenuIcon(false);
+    setPages(false)
   };
 
   const showMenuIcon = () => {
     setMenuIcon(true);
     setCancelMenu(false);
+    setPages(true)
   };
 
   return (
@@ -50,7 +53,9 @@ const App = () => {
             </a>
           </div>
         </div>
-        <div>
+        {
+          pages && (
+            <div>
           <div id="home">
             <Home />
           </div>
@@ -73,6 +78,8 @@ const App = () => {
             </p>
           </div>
         </div>
+          )
+        }
       </div>
     </div>
   );
