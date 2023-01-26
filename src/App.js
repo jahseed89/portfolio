@@ -4,25 +4,24 @@ import Home from "./components/home/Home";
 import Projects from "./components/projects/Projects";
 import About from "./components/about/About";
 import ContactMe from "./components/contact/ContactMe";
-import { GiEternalLove } from "react-icons/gi";
 import { useState } from "react";
 import "./app.scss";
 
 const App = () => {
   const [menuIcon, setMenuIcon] = useState(true);
   const [cancelMenu, setCancelMenu] = useState(false);
-  const [pages, setPages] = useState(true)
+  const [pages, setPages] = useState(true);
 
   const showCancleMenu = () => {
     setCancelMenu((prev) => !prev);
     setMenuIcon(false);
-    setPages(false)
+    setPages(false);
   };
 
   const showMenuIcon = () => {
     setMenuIcon(true);
     setCancelMenu(false);
-    setPages(true)
+    setPages(true);
   };
 
   return (
@@ -53,33 +52,25 @@ const App = () => {
             </a>
           </div>
         </div>
-        {
-          pages && (
-            <div>
-          <div id="home">
-            <Home />
+        {pages && (
+          <div>
+            <div id="home">
+              <Home />
+            </div>
+            <div id="project">
+              <Projects />
+            </div>
+            <div id="about">
+              <About />
+            </div>
+            <div id="contact">
+              <ContactMe />
+            </div>
+            <div className="designed-by">
+              <p>Designed with love by kaybams and developed by Sammy</p>
+            </div>
           </div>
-          <div id="project">
-            <Projects />
-          </div>
-          <div id="about">
-            <About />
-          </div>
-          <div id="contact">
-            <ContactMe />
-          </div>
-          <div className="designed-by">
-            <p>
-              Designed with love
-              <span>
-                <GiEternalLove className="love" />
-              </span>
-              by kaybams and develooped by Sammy
-            </p>
-          </div>
-        </div>
-          )
-        }
+        )}
       </div>
     </div>
   );

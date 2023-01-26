@@ -8,6 +8,12 @@
     text-decoration: none;
     text-transform: uppercase;
 
+    &:hover {
+        background-color: #fff;
+        color: #58C5AC;
+        border: 1px solid #58C5AC;
+    }
+
     @media (max-width: 950px) {
         font-size: 8px;
         padding: 0.1rem .5rem;

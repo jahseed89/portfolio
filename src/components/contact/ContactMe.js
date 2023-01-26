@@ -1,7 +1,7 @@
 import React from "react";
-import linkedIn from '../../assets/images/linkedin.svg'
-import twitter from '../../assets/images/twitter.svg'
-import bb from '../../assets/images/bb.svg'
+import linkedIn from "../../assets/images/linkedin.svg";
+import twitter from "../../assets/images/twitter.svg";
+import bb from "../../assets/images/bb.svg";
 import "./contact.scss";
 
 const ContactMe = () => {
@@ -19,13 +19,13 @@ const ContactMe = () => {
           </p>
           <div className="social-media">
             <a href="https://ng.linkedin.com/in/kayodebamidele" target="blank">
-                <img src={linkedIn} alt="#" />
+              <img src={linkedIn} alt="#" />
             </a>
             <a href="https://mobile.twitter.com/kaybam_s" target="blank">
-                <img src={twitter} alt="#" />
+              <img src={twitter} alt="#" />
             </a>
             <a href="https://www.behance.net/kayodebamidele" target="blank">
-                <img src={bb} alt="#" />
+              <img src={bb} alt="#" />
             </a>
           </div>
         </div>
@@ -39,13 +39,12 @@ const ContactMe = () => {
             <div>
               <input type="email" placeholder="Email" />
             </div>
-            <textarea placeholder="Message"></textarea><br/>
-
+            <textarea placeholder="Message"></textarea>
+            <br />
           </div>
           <button className="send-msg-btn">SEND MESSAGE</button>
         </form>
       </div>
-      
     </div>
   );
 };
