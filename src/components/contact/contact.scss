@@ -19,7 +19,6 @@
         .title-header {
             font-size: 40px;
             display: flex;
-            font-family: sans-serif;
             align-items: center;
 
             @media (max-width: 600px) {
@@ -41,6 +40,10 @@
                     margin-right: auto;
                 }
             }
+        }
+
+        .contacts-contents {
+            margin-top: -2.5rem;
         }
 
         p {

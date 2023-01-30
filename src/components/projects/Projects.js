@@ -13,9 +13,9 @@ import "./projects.scss";
 const Projects = () => {
   return (
     <div className="projects-section">
-      <div className="header">
-        <h3 className="title-desc">Featured Projects</h3>
-        <span>Hover on any project to learn more</span>
+      <div className="project-header">
+        <span className="title-desc">Featured Projects</span>
+        <span className="hover-text">Hover on any project to learn more</span>
       </div>
       <div className="project-wraper">
         <div className="mobile-project">
@@ -143,7 +143,7 @@ const Projects = () => {
         <div className="transaction-proj">
           <div className="modal-display">
             <Modal>
-              <h3>Colabs</h3>
+              <h3>Colab</h3>
               <p>
                 An online educational platform that seeks to simplify knowledge
                 transfer by leveraging on audio and text-ta-speech
