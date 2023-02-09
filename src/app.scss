@@ -1,6 +1,47 @@
 .app {
     background-color: #0B0E18;
-    padding: 0 2rem;
+    padding: 0 8rem;
+
+    nav{
+        display: flex;
+        justify-content: flex-end;
+        padding-bottom: 8rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
+        background-color: #fff;
+
+        @media (max-width: 1740px) {
+            padding-bottom: 4rem;
+            padding-left: 2rem;
+            padding-right: 2rem;
+        }
+
+        ul {
+            width: 20%;
+            display: flex;
+            justify-content: space-between;
+            gap: 2rem;
+
+            @media (max-width: 1740px) {
+                width: 40%;
+            }
+
+            li {
+                list-style-type: none;
+                padding: 1rem 0;
+
+                a {
+                    font-size: 20px;
+                    color: #1D4145;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 1740px) {
+        padding: 0 3rem;
+    }
 
     @media (max-width: 950px) {
         padding: 0 1rem;
