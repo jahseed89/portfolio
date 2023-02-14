@@ -9,10 +9,9 @@ import "./contact.scss";
 const ContactMe = () => {
   const [showModal, setShowModal] = useState(false);
 
-  const openMsgModal = ()=> {
-    setShowModal(prev => !prev)
-
-  }
+  const openMsgModal = () => {
+    setShowModal((prev) => !prev);
+  };
 
   return (
     <div className="contact-section">
@@ -27,13 +26,12 @@ const ContactMe = () => {
       )}
       <div className="info-container">
         <div className="title-header">
-          <h3>Let's Connect!</h3>
+          <h1>Let's Connect!</h1>
         </div>
         <div className="contacts-contents">
           <p>
-            If you ever want to talk about building of a product or just want a
-            quick chat - you can find me on social media or you can send me a
-            message here!
+            Have an amazing idea you which to bring to life? I’m sure you do! so
+            let’s connect and discuss about it together.
           </p>
           <div className="social-media">
             <a href="https://ng.linkedin.com/in/kayodebamidele" target="blank">
@@ -60,7 +58,9 @@ const ContactMe = () => {
             <textarea placeholder="Message"></textarea>
             <br />
           </div>
-          <button className="send-msg-btn" onClick={openMsgModal}>SEND MESSAGE</button>
+          <button className="send-msg-btn" onClick={openMsgModal}>
+            SEND MESSAGE
+          </button>
         </form>
       </div>
     </div>

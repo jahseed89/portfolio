@@ -38,6 +38,9 @@ const App = () => {
             <li>
               <a href="#contact">Contact</a>
             </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
           </ul>
         </nav>
         {/* <div className="menu-wrapper">
@@ -80,7 +83,7 @@ const App = () => {
               <ContactMe />
             </div>
             <div className="designed-by">
-              <p>Designed with love by kaybams and developed by Sammy</p>
+              <p>Designed with love by Kaybams</p>
             </div>
           </div>
         {/* )} */}

@@ -1,6 +1,7 @@
 .projects-section {
     background-color: #0B0E18;
     padding: 0 4rem;
+    margin-top: 8rem;
 
 
     @media (max-width: 950px) {
@@ -21,26 +22,25 @@
         flex-direction: column;
         margin-top: -3rem;
         padding-bottom: 2rem;
+        color: #fff;
 
         .title-desc {
-            color: #58C5AC;
             padding-bottom: 1rem;
-            font-size: 40px;
+            font-size: 56px;
+            font-weight: 700;
+            line-height: 76.38px;
 
             @media (max-width: 600px) {
                 text-align: center;
                 font-size: 30px;
             }
         }
-
-        .hover-text {
-            font-size: 14px;
-            color: #fff;
-            // margin-bottom: 4rem;
+        span {
+            font-size: 20px;
+            line-height: 30px;
+            font-weight: 400;
         }
     }
-
- 
 
     .project-wraper {
         display: flex;
@@ -264,6 +264,46 @@
             }
         }
     }
+}
+.howIapproach-container {
+    background-color: #F2F2F3;
+    margin-top: 5rem;
+    padding: 2rem 3rem 10rem 3rem;
 
- 
+    .header-sect {
+        text-align: center;
+
+        h1 {
+            font-size: 56px;
+            font-weight: 700;
+            line-height: 76.38px;
+            color: #1D4145;
+            
+        }
+
+        p {
+            font-weight: 400;
+            line-height: 30px;
+            font-size: 20px;
+            margin-top: -1rem;
+            padding-bottom: 3rem;
+        }
+    }
+
+    .cards-wrapper {
+        display: flex;
+        gap: 2rem;
+
+        @media (max-width: 950px) {
+            flex-wrap: wrap;
+        }
+
+        .card-items {
+            width: calc(100% / 3);
+
+            @media (max-width: 540px) {
+                width: 100%;
+            }
+        }
+    }
 }

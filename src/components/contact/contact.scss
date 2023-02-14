@@ -10,7 +10,7 @@
     }
     
     .info-container {
-        width: 50%;
+        width: 40%;
 
         @media (max-width: 600px) {
             width: 100%;
@@ -27,11 +27,16 @@
             }
 
 
-            h3 {
-                width: fit-content;
-                color: #58C5AC;
+            h1 {
+                font-family: 'Nunito';
+                font-style: normal;
                 font-weight: 700;
-                line-height: 65.46px;
+                font-size: 56px;
+                line-height: 76px;
+                color: #FFFFFF;
+                flex: none;
+                order: 0;
+                flex-grow: 0;
 
                 @media (max-width: 600px) {
                     font-size: 30px;
@@ -48,11 +53,11 @@
 
         p {
             width: 80%;
-            line-height: 30px;
-            color: #F5F5F5;
-            font-size: 16px;
+            font-style: normal;
             font-weight: 400;
-            text-align: justify;
+            font-size: 20px;
+            line-height: 150%;
+            color: #F5F5F5;
 
             @media (max-width: 600px) {
                 width: 100%;
@@ -68,6 +73,7 @@
 
             a {
                 text-decoration: none;
+
                 img {
                     width: 30px;
                 }
@@ -76,7 +82,7 @@
     }
 
     .form-container {
-        max-width: 50%;
+        max-width: 40%;
 
         .input-fild {
             margin-top: 3rem;
@@ -89,24 +95,18 @@
                 }
 
                 input {
-                    width: 97.5%;
+                    width: 600px;
                     outline: none;
                     padding: 1.3rem 1rem;
                     border: 1px solid #58C5AC;
                     border-radius: 5px;
                     margin: .5rem 0;
 
-                    @media (max-width: 950px) {
-                        width: 60%;
+                    @media (max-width: 1740px) {
+                        width: 450px;
+                        
                     }
-
-                    @media (max-width: 600px) {
-                        width: 85%;
-                    }
-                
-                    @media (max-width: 380px) {
-                        width: 90%;
-                    }
+                   
                 }
             }
         }
@@ -115,13 +115,12 @@
             border: 1px solid #58C5AC;
             border-radius: 5px;
             padding: 1rem;
-            width: 33rem;
+            width: 600px;
             height: 10rem;
 
-         
-
-            @media (max-width: 380px) {
-                width: 20rem;
+            @media (max-width: 1740px) {
+                width: 450px;
+                
             }
         }
 

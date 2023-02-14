@@ -1,6 +1,7 @@
 import React from "react";
 import { SlArrowDown } from "react-icons/sl";
-import Mypic from "../../assets/images/kay.png";
+// import Mypic from "../../assets/images/kay.png";
+import Mypic from "../../assets/images/kays-pic.png";
 import { OfferCard } from "../offer/OfferCard";
 // import Typewriter from "typewriter-effect";
 import "./home.scss";
