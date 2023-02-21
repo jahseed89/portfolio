@@ -9,14 +9,8 @@
         padding: 0 2rem 6rem 2rem;
     }
 
-    nav{
-        display: flex;
-        justify-content: flex-end;
-        margin-bottom: 8rem;
-
-        @media (max-width: 1740px) {
-            margin-bottom: 4rem;
-        }
+    @media (max-width: 540px) {
+        padding-bottom: 15rem;
     }
 
     .section-container {
@@ -24,10 +18,18 @@
         justify-content: space-between;
         height: 100%;
 
+        @media (max-width: 540px) {
+            flex-direction: column;
+        }
+
 
         .desc-section {
             height: 100%;
             width: 60%;
+
+            @media (max-width: 540px) {
+                width: 100%;
+            }
 
             h1 {
                 color: #1D4145;
@@ -38,6 +40,13 @@
 
                 @media (max-width: 1740px) {
                     font-size: 50px;
+                }
+                @media (max-width: 950px) {
+                    font-size: 40px;
+                }
+
+                @media (max-width: 540px) {
+                    font-size: 30px;
                 }
             }
             
@@ -61,13 +70,15 @@
                 display: flex;
                 justify-content: flex-end;
 
+                @media (max-width: 540px) {
+                    width: 100%;
+                }
+
                 .img-container {
 
                 .img-holder {
-                    // background-color: #F2F2F3;
                     width: 80%;
                     padding: 1rem 0;
-                    border-radius: 100%;
                     display: flex;
                     justify-content: center;
                     align-items: center;
@@ -100,6 +111,14 @@
                 height: 250px;
                 background-color: #58C5AC;
                 border-radius: 100%;
+
+                @media (max-width: 950px) {
+                    top: 3rem;
+                }
+
+                @media (max-width: 540px) {
+                    top: -10.5rem;
+                }
                
             }
 
@@ -110,6 +129,10 @@
                 border-radius: 100%;
                 position: absolute;
                 top: 27rem;
+
+                @media (max-width: 540px) {
+                    top: 8rem;
+                }
 
             }
 
@@ -125,6 +148,10 @@
         animation: beat .20s infinite alternate;
         transform-origin: center;
 
+        @media (max-width: 450px) {
+            display: none;
+        }
+
     }
 
     @keyframes beat{
@@ -134,7 +161,6 @@
 
 .what-iDo {
     display: flex;
-    // justify-content: space-between;
     gap: 5rem;
     background-color: #F2F2F3;
     padding: 3rem 5rem 6rem 5rem;
@@ -145,8 +171,16 @@
 
     }
 
+    @media (max-width: 540px) {
+        flex-direction: column;
+    }
+
     .offer-title,.offerCard-wrapper {
         width: calc(100% / 3);
+
+        @media (max-width: 540px) {
+            width: 100%;
+        }
     }
 
     .offer-title {
@@ -158,6 +192,15 @@
             font-size: 30px;
             width: 30%;
         }
+
+        @media (max-width: 950px) {
+            font-size: 20px;
+        }
+
+        @media (max-width: 540px) {
+            width: 100%;
+            margin-bottom: -4rem;
+        }
     }
 
     .offerCard-wrapper {
@@ -166,10 +209,15 @@
 
         @media (max-width: 1740px) {
             width: 35%;
+
+            @media (max-width: 540px) {
+                width: 100%;
+            }
         }
 
         .c-wrapper-row1, .c-wrapper-row2  {
             height: 50%;
+
         }
     }
 }
@@ -179,11 +227,20 @@
     background-color: #ffff;
     padding: 5rem;
 
+    @media (max-width: 540px) {
+        // text-align: left;
+        padding: 2rem 3rem;
+    }
+
     h3 {
         color: #1D4145;
         font-size: 40px;
         font-weight: 400;
         line-height: 54.56px;
+
+        @media (max-width: 540px) {
+            font-size: 30px;
+        }
     }
 
     h1 {
@@ -191,6 +248,11 @@
         font-size: 56px;
         font-weight: 700;
         line-height: 76.38px;
+
+        @media (max-width: 540px) {
+            font-size: 30px;
+        }
+
     }
 }
 
@@ -200,4 +262,5 @@
     .desc-section, .img-bg-wrapper {
         width: 50%;
     }
+
 }

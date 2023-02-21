@@ -8,8 +8,16 @@
         padding: 1rem 3rem;
         background-color: #FDFBF5;
 
+        @media (max-width: 540px) {
+            flex-direction: column;
+        }
+
         .abt-desc {
             width: 40%;
+
+            @media (max-width: 540px) {
+                width: 100%;
+            }
 
             h1 {
                 color: #1D4145;
@@ -20,6 +28,10 @@
 
                 @media (max-width: 1740px) {
                     font-size: 50px;
+                }
+
+                @media (max-width: 540px) {
+                    font-size: 40px;
                 }
             }
 
@@ -34,6 +46,10 @@
                 img {
                     width: 30%;
                     border-radius: 10px;
+
+                    @media (max-width: 540px) {
+                        width: 80%;
+                    }
                 }
             }
 
@@ -51,6 +67,10 @@
         .summary {
             width: 40%;
             margin-top: 7rem;
+            
+            @media (max-width: 540px) {
+                width: 100%;
+            }
 
             h3 {
                 color: #1D4145;
@@ -88,8 +108,17 @@
         justify-content: space-between;
         padding: 5rem 3rem;
 
+        @media (max-width: 540px) {
+            flex-direction: column;
+        }
+
         .got-project {
             width: 40%;
+
+            @media (max-width: 540px) {
+                width: 100%;
+                margin-bottom: 5rem;
+            }
 
             p {
                 font-style: normal;
@@ -104,6 +133,10 @@
                 font-size: 56px;
                 line-height: 76px;
                 color: #1D4145;
+
+                @media (max-width: 540px) {
+                    font-size: 40px;
+                }
             }
             button {
                 display: flex;
@@ -128,6 +161,14 @@
 
         .lightImg-holder {
             width: 40%;
+
+            @media (max-width: 540px) {
+                width: 100%;
+            }
+
+            img {
+                width: 100%;
+            }
         }
     }
 
@@ -160,6 +201,11 @@
             flex: none;
             order: 0;
             flex-grow: 0;
+
+            @media (max-width: 950px) {
+                font-size: 40px;
+                
+            }
 
             @media (max-width: 600px) {
                 font-size: 20px;
@@ -194,10 +240,6 @@
 
                 img {
                     width: 100%;
-
-                    @media (max-width: 600px) {
-                        width: 100%;
-                    }
                 }
             }
         }

@@ -8,14 +8,6 @@
         margin-bottom: 30%;
     }
 
-    @media (max-width: 600px) {
-        margin-bottom: 60rem;
-    }
-
-    @media (max-width: 365px) {
-        margin-bottom: 70rem;
-    }
-
     .project-header {
         text-align: center;
         display: flex;
@@ -198,7 +190,6 @@
 
                 @media (max-width: 600px) {
                     margin-top: -1.5rem;
-                    border: 1px solid red;
                 }
 
                 button {
@@ -265,6 +256,7 @@
         }
     }
 }
+
 .howIapproach-container {
     background-color: #F2F2F3;
     margin-top: 5rem;
@@ -278,6 +270,12 @@
             font-weight: 700;
             line-height: 76.38px;
             color: #1D4145;
+
+            @media (max-width: 540px) {
+                font-size: 30px;
+                line-height: 40px;
+                padding-bottom: 1rem;
+            }
             
         }
 
@@ -296,12 +294,13 @@
 
         @media (max-width: 950px) {
             flex-wrap: wrap;
+            gap: 5rem;
         }
 
         .card-items {
             width: calc(100% / 3);
 
-            @media (max-width: 540px) {
+            @media (max-width: 950px) {
                 width: 100%;
             }
         }

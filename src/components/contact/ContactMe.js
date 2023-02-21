@@ -1,29 +1,14 @@
-import React, { useState } from "react";
+import React from "react";
 import linkedIn from "../../assets/images/linkedin.svg";
 import twitter from "../../assets/images/twitter.svg";
 import bb from "../../assets/images/bb.svg";
-import Modal from "../Modal";
-import LinksBtn from "../buttons/LinksBtn";
 import "./contact.scss";
 
 const ContactMe = () => {
-  const [showModal, setShowModal] = useState(false);
-
-  const openMsgModal = () => {
-    setShowModal((prev) => !prev);
-  };
 
   return (
     <div className="contact-section">
-      {showModal && (
-        <Modal>
-          <div>
-            <h3>Thanks for the message!</h3>
-            <p>I will get back to you as soon as possible</p>
-            <LinksBtn linkBtnText="Back to Portfolio" />
-          </div>
-        </Modal>
-      )}
+     
       <div className="info-container">
         <div className="title-header">
           <h1>Let's Connect!</h1>
@@ -58,7 +43,7 @@ const ContactMe = () => {
             <textarea placeholder="Message"></textarea>
             <br />
           </div>
-          <button className="send-msg-btn" onClick={openMsgModal}>
+          <button className="send-msg-btn">
             SEND MESSAGE
           </button>
         </form>

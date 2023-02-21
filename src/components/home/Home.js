@@ -59,7 +59,7 @@ const Home = () => {
           starts with asking the right set of questions."
             />
           </div>
-          <div  className="c-wrapper-row1">
+          <div className="c-wrapper-row1">
             <OfferCard
               num="3"
               title="Rapid Prototyping"

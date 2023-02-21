@@ -5,6 +5,12 @@
     height: 100vh;
     margin-top: 8rem;
 
+    @media (max-width: 950px) {
+        height: 100%;
+        margin-bottom: 5rem;
+        padding: 0 3rem;
+    }
+
     @media (max-width: 600px) {
         flex-direction: column;
     }
@@ -17,13 +23,14 @@
         }
 
         .title-header {
-            font-size: 40px;
             display: flex;
             align-items: center;
 
-            @media (max-width: 600px) {
-                font-size: 30px;
+            @media (max-width: 540px) {
+                font-size: 40px;
                 width: 100%;
+                align-items: flex-start;
+                
             }
 
 
@@ -38,11 +45,12 @@
                 order: 0;
                 flex-grow: 0;
 
-                @media (max-width: 600px) {
-                    font-size: 30px;
+                @media (max-width: 950px) {
+                    font-size: 40px;
+                }
+
+                @media (max-width: 540px) {
                     width: fit-content;
-                    margin-left: auto;
-                    margin-right: auto;
                 }
             }
         }
@@ -58,6 +66,7 @@
             font-size: 20px;
             line-height: 150%;
             color: #F5F5F5;
+            text-align: justify;
 
             @media (max-width: 600px) {
                 width: 100%;
@@ -90,10 +99,6 @@
             div{
                 margin: 1rem 0;
 
-                @media (max-width: 950px) {
-                    width: 100vw;
-                }
-
                 input {
                     width: 600px;
                     outline: none;
@@ -105,6 +110,14 @@
                     @media (max-width: 1740px) {
                         width: 450px;
                         
+                    }
+
+                    @media (max-width: 950px) {
+                        width: 100%;
+                    }
+
+                    @media (max-width: 450px) {
+                        width: 320px;
                     }
                    
                 }
@@ -120,7 +133,14 @@
 
             @media (max-width: 1740px) {
                 width: 450px;
-                
+            }
+
+            @media (max-width: 950px) {
+                width: 100%;
+            }
+
+            @media (max-width: 450px) {
+                width: 320px;
             }
         }
 
@@ -133,14 +153,14 @@
             margin: 1rem 0;
             font-size: 12px;
             cursor: pointer;
-
+            
             &:hover {
                 background-color: #fff;
                 color: #58C5AC;
                 border: 1px solid #58C5AC;
             }
 
-            @media (max-width: 600px) {
+            @media (max-width: 540px) {
                 font-size: 10px;
             }
         }
