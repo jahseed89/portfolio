@@ -1,14 +1,49 @@
-import React from "react";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 import linkedIn from "../../assets/images/linkedin.svg";
 import twitter from "../../assets/images/twitter.svg";
 import bb from "../../assets/images/bb.svg";
 import "./contact.scss";
+import { toast } from "react-hot-toast";
+// import { useNavigate } from "react-router-dom";
 
 const ContactMe = () => {
+  const form = useRef();
+
+  // const navigate = useNavigate()
+
+  // const navigateToHome = () => {
+  //   navigate('http://localhost:3000/#home')
+  // }
+
+  const successMsg = () => {
+    toast.success('MESSAGE SENT SUCCESSFULLY')
+  }
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_h5t3b8q",
+        "template_0saeefb",
+        form.current,
+        "KSAY6cKYxRRIT2IB6"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          successMsg()
+
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
 
   return (
     <div className="contact-section">
-     
       <div className="info-container">
         <div className="title-header">
           <h1>Let's Connect!</h1>
@@ -32,20 +67,23 @@ const ContactMe = () => {
         </div>
       </div>
       <div className="form-container">
-        <form>
-          <div className="input-fild">
-            <div>
-              <input type="text" placeholder="Name" />
-            </div>
-            <div>
-              <input type="email" placeholder="Email" />
-            </div>
-            <textarea placeholder="Message"></textarea>
+        <form ref={form} onSubmit={sendEmail}>
+          <div>
+            <label>Name</label>
             <br />
+            <input type="text" name="user_name" placeholder="Enter your name" />
           </div>
-          <button className="send-msg-btn">
-            SEND MESSAGE
-          </button>
+          <div>
+            <label>Email</label>
+            <br />
+            <input type="email" name="user_email" placeholder="Enter your email" />
+          </div>
+          <div>
+            <label>Message</label>
+            <br />
+            <textarea name="message" placeholder="Write Message" />
+          </div>
+          <input type="submit" value="SEND MESSAGE" className="send-msg" />
         </form>
       </div>
     </div>

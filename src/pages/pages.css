@@ -1,0 +1,129 @@
+.app {
+  background-color: #0B0E18;
+  padding: 0 8rem;
+}
+@media (max-width: 950px) {
+  .app {
+    padding: 0 2rem;
+  }
+}
+.app nav {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 8rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  background-color: #fff;
+}
+@media (max-width: 1740px) {
+  .app nav {
+    padding-bottom: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+@media (max-width: 950px) {
+  .app nav {
+    padding-left: 0;
+  }
+}
+@media (max-width: 540px) {
+  .app nav {
+    padding-bottom: 1rem;
+  }
+}
+.app nav ul {
+  width: 30% !important;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+@media (max-width: 1740px) {
+  .app nav ul {
+    width: 40%;
+  }
+}
+@media (max-width: 950px) {
+  .app nav ul {
+    width: 100% !important;
+    padding: 0 2rem;
+  }
+}
+.app nav ul li {
+  list-style-type: none;
+  padding: 1rem 0;
+}
+.app nav ul li a {
+  font-size: 16px;
+  color: #1D4145;
+  text-decoration: none;
+}
+@media (max-width: 1740px) {
+  .app {
+    padding: 0 2rem;
+  }
+}
+@media (max-width: 950px) {
+  .app {
+    padding: 0 1rem;
+    width: 100%;
+  }
+}
+.app .designed-by {
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  background-color: #1D4145;
+}
+.app .designed-by p {
+  padding: 0.8rem 0;
+  font-size: 20px;
+  line-height: 28.27px;
+}
+@media (max-width: 600px) {
+  .app .designed-by p {
+    font-size: 10px;
+  }
+}
+.app .designed-by span {
+  margin: 0 0.5rem;
+}
+
+.app-header .menu-wrapper {
+  position: absolute;
+  text-align: end;
+  font-size: 28px;
+  right: 4rem;
+  color: #000;
+}
+@media (max-width: 600px) {
+  .app-header .menu-wrapper {
+    right: 1rem;
+    top: 1rem;
+  }
+}
+.app-header .display-links {
+  display: none;
+}
+.app-header .links-container {
+  background-color: #58C5AC;
+  height: 100vh;
+  width: 50%;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 600px) {
+  .app-header .links-container {
+    width: 100vw;
+    margin: 0;
+  }
+}
+.app-header .links-container a {
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+  margin: 1rem 0;
+}/*# sourceMappingURL=pages.css.map */

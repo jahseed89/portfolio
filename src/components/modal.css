@@ -1,0 +1,48 @@
+.modal::before {
+  content: "";
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: z("below");
+}
+
+.close-modal {
+  position: absolute;
+  color: #fff;
+  top: 0.5rem;
+  right: 0.5rem;
+  font-size: large;
+  background: transparent;
+}
+
+.modal-body {
+  position: absolute;
+  color: #F5F5F5;
+  text-align: center;
+  width: 65%;
+  left: 17.5%;
+  right: 17.5%;
+  line-height: 22.4px;
+  top: 12rem;
+  z-index: 100;
+}
+@media (max-width: 1740px) {
+  .modal-body {
+    top: 5rem;
+    width: 80%;
+    left: 10%;
+    right: 10%;
+  }
+}
+@media (max-width: 950px) {
+  .modal-body {
+    width: 100%;
+    top: -0.5rem;
+    left: 0;
+    right: 25%;
+    line-height: 22.4px;
+  }
+}/*# sourceMappingURL=modal.css.map */

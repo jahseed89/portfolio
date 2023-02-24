@@ -1,0 +1,16 @@
+.card-holder {
+  background-color: #FFFFFF;
+  padding: 1rem;
+  height: 100%;
+  border-radius: 10px;
+}
+.card-holder h3 {
+  line-height: 43.65px;
+  font-size: 32px;
+  font-weight: 600;
+}
+.card-holder p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27.28px;
+}/*# sourceMappingURL=approachCard.css.map */

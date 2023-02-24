@@ -93,11 +93,16 @@
     .form-container {
         max-width: 40%;
 
-        .input-fild {
+        form {
             margin-top: 3rem;
 
             div{
                 margin: 1rem 0;
+
+                label {
+                    color: #fff;
+                    font-size: 20px;
+                }
 
                 input {
                     width: 600px;
@@ -144,7 +149,7 @@
             }
         }
 
-        .send-msg-btn {
+        .send-msg {
             padding: 1rem 1.5rem;
             background-color: #58C5AC;
             color: #F5F5F5;
@@ -162,6 +167,7 @@
 
             @media (max-width: 540px) {
                 font-size: 10px;
+                width: 320px;
             }
         }
     }

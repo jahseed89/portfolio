@@ -1,0 +1,242 @@
+.about-me-page {
+  background-color: #fff;
+  margin-top: 10rem;
+}
+.about-me-page .abt-me {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+  background-color: #FDFBF5;
+}
+@media (max-width: 540px) {
+  .about-me-page .abt-me {
+    flex-direction: column;
+  }
+}
+.about-me-page .abt-me .abt-desc {
+  width: 40%;
+}
+@media (max-width: 540px) {
+  .about-me-page .abt-me .abt-desc {
+    width: 100%;
+  }
+}
+.about-me-page .abt-me .abt-desc h1 {
+  color: #1D4145;
+  font-size: 64px;
+  line-height: 74.82px;
+  font-weight: 700;
+}
+@media (max-width: 1740px) {
+  .about-me-page .abt-me .abt-desc h1 {
+    font-size: 50px;
+  }
+}
+@media (max-width: 540px) {
+  .about-me-page .abt-me .abt-desc h1 {
+    font-size: 40px;
+  }
+}
+.about-me-page .abt-me .abt-desc .myPic-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  padding: 5rem 0;
+  background-color: #F2F2F3;
+}
+.about-me-page .abt-me .abt-desc .myPic-container img {
+  width: 30%;
+  border-radius: 10px;
+}
+@media (max-width: 540px) {
+  .about-me-page .abt-me .abt-desc .myPic-container img {
+    width: 80%;
+  }
+}
+.about-me-page .abt-me .abt-desc p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27.28px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.about-me-page .abt-me .summary {
+  width: 40%;
+  margin-top: 7rem;
+}
+@media (max-width: 540px) {
+  .about-me-page .abt-me .summary {
+    width: 100%;
+  }
+}
+.about-me-page .abt-me .summary h3 {
+  color: #1D4145;
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 700;
+}
+.about-me-page .abt-me .summary .contents {
+  margin: 2rem 0;
+}
+.about-me-page .abt-me .summary .contents p:first-child {
+  color: #808080;
+  font-family: "Nunito";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+.about-me-page .abt-me .summary .contents p:last-child {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+  color: #0B0E18;
+  margin-top: -0.3rem;
+}
+.about-me-page .what-next {
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem 3rem;
+}
+@media (max-width: 540px) {
+  .about-me-page .what-next {
+    flex-direction: column;
+  }
+}
+.about-me-page .what-next .got-project {
+  width: 40%;
+}
+@media (max-width: 540px) {
+  .about-me-page .what-next .got-project {
+    width: 100%;
+    margin-bottom: 5rem;
+  }
+}
+.about-me-page .what-next .got-project p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 55px;
+  color: #1D4145;
+}
+.about-me-page .what-next .got-project h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 76px;
+  color: #1D4145;
+}
+@media (max-width: 540px) {
+  .about-me-page .what-next .got-project h2 {
+    font-size: 40px;
+  }
+}
+.about-me-page .what-next .got-project button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  width: 200px;
+  height: 56px;
+  background: #1D4145;
+  border-radius: 8px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  color: #fff;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+.about-me-page .what-next .lightImg-holder {
+  width: 40%;
+}
+@media (max-width: 540px) {
+  .about-me-page .what-next .lightImg-holder {
+    width: 100%;
+  }
+}
+.about-me-page .what-next .lightImg-holder img {
+  width: 100%;
+}
+.about-me-page .toolkit-section {
+  background-color: #F5F5F5;
+  padding: 3rem 4rem;
+}
+.about-me-page .toolkit-header {
+  display: flex;
+  align-items: center;
+  font-size: 40px;
+  font-family: sans-serif;
+}
+@media (max-width: 600px) {
+  .about-me-page .toolkit-header {
+    font-size: 30px;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.about-me-page .toolkit-header h1 {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 76px;
+  color: #1D4145;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+@media (max-width: 950px) {
+  .about-me-page .toolkit-header h1 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 600px) {
+  .about-me-page .toolkit-header h1 {
+    font-size: 20px;
+  }
+}
+.about-me-page .toolkit-header span {
+  margin-left: 2.5rem;
+}
+.about-me-page .toolkit-tools {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #F5F5F5;
+}
+@media (max-width: 600px) {
+  .about-me-page .toolkit-tools {
+    width: 100%;
+  }
+}
+.about-me-page .toolkit-tools .first-row, .about-me-page .toolkit-tools .second-row {
+  display: flex;
+}
+.about-me-page .toolkit-tools .first-row span, .about-me-page .toolkit-tools .second-row span {
+  width: 30px;
+  height: 30px;
+}
+@media (max-width: 600px) {
+  .about-me-page .toolkit-tools .first-row span, .about-me-page .toolkit-tools .second-row span {
+    width: 20px;
+    height: 20px;
+  }
+}
+.about-me-page .toolkit-tools .first-row span img, .about-me-page .toolkit-tools .second-row span img {
+  width: 100%;
+}
+.about-me-page .toolkit-tools .first-row {
+  justify-content: space-between;
+}
+.about-me-page .toolkit-tools .second-row {
+  justify-content: space-around;
+  margin-top: 3rem;
+}/*# sourceMappingURL=about.css.map */

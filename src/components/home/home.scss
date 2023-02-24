@@ -6,7 +6,7 @@
     position: relative;
 
     @media (max-width: 1740px) {
-        padding: 0 2rem 6rem 2rem;
+        padding: 4rem 2rem 6rem 2rem;
     }
 
     @media (max-width: 540px) {
@@ -143,7 +143,7 @@
     .arrow-downHolder {
         position: absolute;
         text-align: center;
-        bottom: 15rem;
+        bottom: 18rem;
         font-size: 30px;
         left: 50%;
         animation: beat .20s infinite alternate;
