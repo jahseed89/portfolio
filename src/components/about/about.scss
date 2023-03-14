@@ -2,6 +2,10 @@
     background-color: #fff;
     margin-top: 10rem;
 
+    @media (max-width: 540px) {
+        margin-top: 0;
+    }
+
     .abt-me {
         display: flex;
         justify-content: space-between;
@@ -10,6 +14,10 @@
 
         @media (max-width: 540px) {
             flex-direction: column;
+        }
+
+        @media (max-width: 370px) {
+            padding: 1rem;
         }
 
         .abt-desc {
@@ -32,6 +40,10 @@
 
                 @media (max-width: 540px) {
                     font-size: 40px;
+                }
+
+                @media (max-width: 370px) {
+                    font-size: 32px;
                 }
             }
 
@@ -60,6 +72,10 @@
                 display: flex;
                 flex-direction: column;
                 gap: 1.5rem;
+
+                @media (max-width: 370px) {
+                    font-size: 14px;
+                }
                 
             }
         }
@@ -88,6 +104,10 @@
                     font-weight: 400;
                     font-size: 16px;
                     line-height: 22px;
+
+                    @media (max-width: 370px) {
+                        font-size: 14px;
+                    }
                 }
 
                 p:last-child {
@@ -98,6 +118,10 @@
                     line-height: 27px;
                     color: #0B0E18;
                     margin-top: -.3rem;
+
+                    @media (max-width: 370px) {
+                        font-size: 14px;
+                    }
                 }
 
             }

@@ -9,8 +9,18 @@
   font-size: 32px;
   font-weight: 600;
 }
+@media (max-width: 370px) {
+  .card-holder h3 {
+    font-size: 24px;
+  }
+}
 .card-holder p {
   font-size: 20px;
   font-weight: 400;
   line-height: 27.28px;
+}
+@media (max-width: 370px) {
+  .card-holder p {
+    font-size: 14px;
+  }
 }/*# sourceMappingURL=approachCard.css.map */

@@ -55,22 +55,22 @@ const Home = () => {
             <OfferCard
               num="1"
               title="User-centric Designs"
-              desc="Ibelieve that coming up with meningful design solutions for people
+              desc="I believe that coming up with meningful design solutions for people
           starts with asking the right set of questions."
             />
           </div>
           <div className="c-wrapper-row1">
             <OfferCard
-              num="3"
+              num="2"
               title="Rapid Prototyping"
               desc="With proficiency in tools such as Adobe XD and Figma, I ensure my high fidelity designs are interactive - this allows for easier presentation during reviews or to easily get feedback from potential users."
             />
           </div>
         </div>
-        <div className="offerCard-wrapper">
+        <div className="offerCard-wrapper second-row">
           <div className="c-wrapper-row2">
             <OfferCard
-              num="2"
+              num="3"
               title="Clean Interfaces"
               desc="Armed with the requisite graphical user interface principles, I come up with designs that are visually appealing and usable."
             />

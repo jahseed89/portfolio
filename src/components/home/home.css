@@ -14,6 +14,12 @@
     padding-bottom: 32rem;
   }
 }
+@media (max-width: 370px) {
+  .home-section {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
 .home-section .section-container {
   display: flex;
   justify-content: space-between;
@@ -64,6 +70,11 @@
   .home-section .section-container .desc-section p {
     font-size: 16px;
     margin-top: -0.2rem;
+  }
+}
+@media (max-width: 370px) {
+  .home-section .section-container .desc-section p {
+    font-size: 12px;
   }
 }
 .home-section .section-container .img-bg-wrapper {
@@ -200,6 +211,11 @@
   .what-iDo .offer-title {
     width: 100%;
     margin-bottom: -4rem;
+  }
+}
+@media (max-width: 370px) {
+  .what-iDo .offer-title {
+    font-size: 16px;
   }
 }
 .what-iDo .offerCard-wrapper {

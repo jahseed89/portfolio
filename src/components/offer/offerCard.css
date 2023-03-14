@@ -19,6 +19,13 @@
   align-items: center;
   margin-top: 2rem;
 }
+@media (max-width: 370px) {
+  .offerCard-container .numb {
+    font-size: 16px;
+    width: 90px;
+    height: 37px;
+  }
+}
 .offerCard-container .numb span {
   padding: 0 0.9rem;
 }
@@ -33,6 +40,11 @@
     font-size: 18px;
   }
 }
+@media (max-width: 370px) {
+  .offerCard-container .card-desc {
+    font-size: 12px;
+  }
+}
 .offerCard-container .card-desc h3 {
   font-size: 32px;
   line-height: 43.65px;
@@ -42,6 +54,11 @@
 @media (max-width: 1740px) {
   .offerCard-container .card-desc h3 {
     font-size: 28px;
+  }
+}
+@media (max-width: 370px) {
+  .offerCard-container .card-desc h3 {
+    font-size: 18px;
   }
 }
 .offerCard-container .card-desc p {

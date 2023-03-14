@@ -2,6 +2,11 @@
   background-color: #fff;
   margin-top: 10rem;
 }
+@media (max-width: 540px) {
+  .about-me-page {
+    margin-top: 0;
+  }
+}
 .about-me-page .abt-me {
   display: flex;
   justify-content: space-between;
@@ -11,6 +16,11 @@
 @media (max-width: 540px) {
   .about-me-page .abt-me {
     flex-direction: column;
+  }
+}
+@media (max-width: 370px) {
+  .about-me-page .abt-me {
+    padding: 1rem;
   }
 }
 .about-me-page .abt-me .abt-desc {
@@ -35,6 +45,11 @@
 @media (max-width: 540px) {
   .about-me-page .abt-me .abt-desc h1 {
     font-size: 40px;
+  }
+}
+@media (max-width: 370px) {
+  .about-me-page .abt-me .abt-desc h1 {
+    font-size: 32px;
   }
 }
 .about-me-page .abt-me .abt-desc .myPic-container {
@@ -62,6 +77,11 @@
   flex-direction: column;
   gap: 1.5rem;
 }
+@media (max-width: 370px) {
+  .about-me-page .abt-me .abt-desc p {
+    font-size: 14px;
+  }
+}
 .about-me-page .abt-me .summary {
   width: 40%;
   margin-top: 7rem;
@@ -87,6 +107,11 @@
   font-size: 16px;
   line-height: 22px;
 }
+@media (max-width: 370px) {
+  .about-me-page .abt-me .summary .contents p:first-child {
+    font-size: 14px;
+  }
+}
 .about-me-page .abt-me .summary .contents p:last-child {
   font-family: "Nunito";
   font-style: normal;
@@ -95,6 +120,11 @@
   line-height: 27px;
   color: #0B0E18;
   margin-top: -0.3rem;
+}
+@media (max-width: 370px) {
+  .about-me-page .abt-me .summary .contents p:last-child {
+    font-size: 14px;
+  }
 }
 .about-me-page .what-next {
   display: flex;

@@ -8,11 +8,19 @@
         line-height: 43.65px;
         font-size: 32px;
         font-weight: 600;
+
+        @media (max-width: 370px) {
+            font-size: 24px;
+        }
     }
 
     p {
         font-size: 20px;
         font-weight: 400;
         line-height: 27.28px;
+
+        @media (max-width: 370px) {
+            font-size: 14px;
+        }
     }
 }

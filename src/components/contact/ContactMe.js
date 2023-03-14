@@ -3,18 +3,11 @@ import emailjs from "@emailjs/browser";
 import linkedIn from "../../assets/images/linkedin.svg";
 import twitter from "../../assets/images/twitter.svg";
 import bb from "../../assets/images/bb.svg";
-import "./contact.scss";
 import { toast } from "react-hot-toast";
-// import { useNavigate } from "react-router-dom";
+import "./contact.scss";
 
 const ContactMe = () => {
   const form = useRef();
-
-  // const navigate = useNavigate()
-
-  // const navigateToHome = () => {
-  //   navigate('http://localhost:3000/#home')
-  // }
 
   const successMsg = () => {
     toast.success('MESSAGE SENT SUCCESSFULLY')

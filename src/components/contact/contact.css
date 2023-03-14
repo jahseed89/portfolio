@@ -17,6 +17,11 @@
     flex-direction: column;
   }
 }
+@media (max-width: 370px) {
+  .contact-section {
+    padding: 0 1rem;
+  }
+}
 .contact-section .info-container {
   width: 40%;
 }
@@ -34,6 +39,12 @@
     font-size: 40px;
     width: 100%;
     align-items: flex-start;
+    padding-bottom: 1rem;
+  }
+}
+@media (max-width: 370px) {
+  .contact-section .info-container .title-header {
+    font-size: 32px;
   }
 }
 .contact-section .info-container .title-header h1 {

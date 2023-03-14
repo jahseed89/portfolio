@@ -4,6 +4,11 @@
 
     @media (max-width: 950px) {
         padding: 0 2rem;
+        overflow-x: hidden !important;
+    }
+
+    @media (max-width: 370px) {
+        padding: 0 1rem;
     }
 
     nav{
@@ -28,6 +33,11 @@
             padding-bottom: 1rem;
         }
 
+        @media (max-width: 370px) {
+            padding-left: 0;
+            padding-right: 0;
+        }
+
 
         ul {
             width: 30% !important;
@@ -44,6 +54,10 @@
                 padding: 0 2rem;
             }
 
+            @media (max-width: 370px) {
+                padding: 0 1rem;
+            }
+
 
 
             li {
@@ -54,6 +68,10 @@
                     font-size: 16px;
                     color: #1D4145;
                     text-decoration: none;
+
+                    @media (max-width: 370px) {
+                        font-size: 12px;
+                    }
                 }
             }
         }
